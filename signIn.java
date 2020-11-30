@@ -1,6 +1,7 @@
 public class signIn{
 	private int id;
 	private String name;
-	public void sign(){
+	private void sign(){
+		System.out.println("id-"+id);
 	}
 }
